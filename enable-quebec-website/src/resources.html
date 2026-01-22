@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ressources | e-NABLE Québec</title>
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="navbar">
+        <a class="brand" href="./index.html">
+          <img class="logo" src="./assets/img/logo.svg" alt="Logo e-NABLE Québec" />
+          <div class="title"><strong>e-NABLE Québec</strong><span>Communauté, open-source, inclusion</span></div>
+        </a>
+        <div class="actions">
+          <button class="btn" type="button" data-lang-toggle aria-label="Basculer en anglais">FR</button>
+          <button class="btn" type="button" data-menu-btn aria-expanded="false" aria-controls="navlinks">Menu</button>
+        </div>
+      </div>
+
+      <nav id="navlinks" class="navlinks" data-navlinks data-open="false" style="display:none;">
+        <a href="./index.html" data-i18n="nav_home">Accueil</a>
+        <a href="./about.html" data-i18n="nav_about">À propos</a>
+        <a href="./get-device.html" data-i18n="nav_get">Recevoir un dispositif</a>
+        <a href="./volunteer.html" data-i18n="nav_volunteer">Bénévolat</a>
+        <a href="./resources.html" aria-current="page" data-i18n="nav_resources">Ressources</a>
+        <a href="./donate.html" data-i18n="nav_donate">Donner</a>
+        <a href="./contact.html" data-i18n="nav_contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="section">
+    <div class="container">
+      <h1 style="margin:0 0 10px 0;">Ressources</h1>
+      <p class="lead">Pages à compléter: modèles, guide impression, checklist qualité, sécurité, FAQ.</p>
+
+      <div class="grid">
+        <div class="card pad">
+          <h2 style="margin-top:0;">Checklists</h2>
+          <ul class="small" style="margin:0; padding-left:18px;">
+            <li>Qualité impression: couches, tolérances, solidité</li>
+            <li>Assemblage: cordage, tension, finitions</li>
+            <li>Test: ouverture-fermeture, confort, points de friction</li>
+          </ul>
+        </div>
+        <div class="card pad">
+          <h2 style="margin-top:0;">Impression 3D</h2>
+          <p class="small">À documenter: matériaux (PLA/PETG), paramètres, supports, post-traitement.</p>
+        </div>
+        <div class="card pad">
+          <h2 style="margin-top:0;">FAQ</h2>
+          <p class="small">Qui est admissible, délais, entretien, ajustements, limites.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="small">© <span data-year></span> e-NABLE Québec</div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/i18n.js"></script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>e-NABLE Québec</title>
+  <meta name="description" content="e-NABLE Québec: communauté de bénévoles qui conçoit et offre des dispositifs d’assistance imprimés en 3D." />
+
+  <link rel="icon" href="../public/favicon.svg" />
+  <meta property="og:title" content="e-NABLE Québec" />
+  <meta property="og:description" content="Technologie pour l’inclusion. Dispositifs imprimés en 3D, offerts gratuitement." />
+  <meta property="og:image" content="../public/og-image.png" />
+
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="navbar">
+        <a class="brand" href="./index.html">
+          <img class="logo" src="./assets/img/logo.svg" alt="Logo e-NABLE Québec" />
+          <div class="title">
+            <strong>e-NABLE Québec</strong>
+            <span>Communauté, open-source, inclusion</span>
+          </div>
+        </a>
+
+        <div class="actions">
+          <button class="btn" type="button" data-lang-toggle aria-label="Basculer en anglais">FR</button>
+          <button class="btn" type="button" data-menu-btn aria-expanded="false" aria-controls="navlinks">Menu</button>
+        </div>
+      </div>
+
+      <nav id="navlinks" class="navlinks" data-navlinks data-open="false" style="display:none;">
+        <a href="./index.html" aria-current="page" data-i18n="nav_home">Accueil</a>
+        <a href="./about.html" data-i18n="nav_about">À propos</a>
+        <a href="./get-device.html" data-i18n="nav_get">Recevoir un dispositif</a>
+        <a href="./volunteer.html" data-i18n="nav_volunteer">Bénévolat</a>
+        <a href="./resources.html" data-i18n="nav_resources">Ressources</a>
+        <a href="./donate.html" data-i18n="nav_donate">Donner</a>
+        <a href="./contact.html" data-i18n="nav_contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="card pad">
+            <span class="badge">Québec</span>
+            <h1 data-i18n="hero_title">e-NABLE Québec</h1>
+            <p data-i18n="hero_sub">
+              Technologie pour l’inclusion. Des dispositifs d’assistance imprimés en 3D, offerts gratuitement grâce à une communauté de bénévoles.
+            </p>
+
+            <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:14px;">
+              <a class="btn primary" href="./get-device.html" data-i18n="hero_cta_primary">Demander un dispositif</a>
+              <a class="btn" href="./volunteer.html" data-i18n="hero_cta_secondary">Devenir bénévole</a>
+            </div>
+
+            <div class="kpis">
+              <div class="kpi">
+                <strong data-i18n="kpi_1_title">Gratuit</strong>
+                <span data-i18n="kpi_1_sub">Pour les bénéficiaires</span>
+              </div>
+              <div class="kpi">
+                <strong data-i18n="kpi_2_title">Communautaire</strong>
+                <span data-i18n="kpi_2_sub">Étudiants, pros, makers</span>
+              </div>
+              <div class="kpi">
+                <strong data-i18n="kpi_3_title">Open-source</strong>
+                <span data-i18n="kpi_3_sub">Modèles et outils partagés</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card pad">
+            <img src="./assets/img/hero.svg" alt="Illustration stylisée d’une main assistive imprimée en 3D" />
+            <div class="hr"></div>
+            <div class="small">
+              Objectif: créer un chapitre actif au Québec, avec des cellules locales (Montréal, Québec, Montérégie, etc.).
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 data-i18n="sec_how_title">Comment ça marche</h2>
+        <p class="lead" data-i18n="sec_how_lead">Un parcours simple, humain et sécuritaire pour aider au Québec.</p>
+
+        <div class="grid">
+          <div class="card feature">
+            <div class="icon">1</div>
+            <h3 data-i18n="how_1_title">Demande</h3>
+            <p data-i18n="how_1_desc">Tu remplis un formulaire avec tes besoins et tes mesures. On confirme l’admissibilité et les délais.</p>
+          </div>
+          <div class="card feature">
+            <div class="icon">2</div>
+            <h3 data-i18n="how_2_title">Conception</h3>
+            <p data-i18n="how_2_desc">On choisit un modèle open-source adapté et on ajuste l’assemblage selon ton profil.</p>
+          </div>
+          <div class="card feature">
+            <div class="icon">3</div>
+            <h3 data-i18n="how_3_title">Fabrication</h3>
+            <p data-i18n="how_3_desc">Un bénévole imprime, assemble, vérifie la qualité, puis planifie la remise du dispositif.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 data-i18n="sec_safety_title">Sécurité et limites</h2>
+        <p class="lead" data-i18n="sec_safety_lead">On fait de notre mieux, mais ce ne sont pas des dispositifs médicaux certifiés.</p>
+
+        <div class="card pad">
+          <ul style="margin:0; padding-left: 18px; color: var(--muted);">
+            <li data-i18n="safety_b1">Dispositifs d’assistance non médicaux (non certifiés).</li>
+            <li data-i18n="safety_b2">Ajustement et suivi recommandés avec un professionnel (ergothérapie, etc.).</li>
+            <li data-i18n="safety_b3">Protection des données: on collecte le minimum nécessaire.</li>
+          </ul>
+        </div>
+
+        <div style="height: 14px;"></div>
+
+        <div class="card callout">
+          <div>
+            <strong data-i18n="callout_title">Envie de lancer ça à Polytechnique, McGill, UdeM ou ailleurs</strong>
+            <div class="small" data-i18n="callout_desc">On peut monter une équipe locale: makers, impression 3D, design, validation, logistique.</div>
+          </div>
+          <a class="btn primary" href="./volunteer.html" data-i18n="callout_btn">Voir la page bénévolat</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <strong>e-NABLE Québec</strong>
+          <p class="small" data-i18n="footer_tag">Une initiative communautaire inspirée du réseau e-NABLE international.</p>
+          <p class="small" data-i18n="footer_note">Ce site est un prototype. Remplace les textes et ajoute tes vraies infos.</p>
+        </div>
+
+        <div>
+          <strong data-i18n="footer_links">Liens</strong>
+          <div class="small" style="display:grid; gap: 8px; margin-top:10px;">
+            <a href="./get-device.html">Demander un dispositif</a>
+            <a href="./volunteer.html">Devenir bénévole</a>
+            <a href="./resources.html">Ressources</a>
+          </div>
+        </div>
+
+        <div>
+          <strong data-i18n="footer_contact">Nous joindre</strong>
+          <div class="small" style="display:grid; gap: 6px; margin-top:10px;">
+            <span>Email: contact@enablequebec.org</span>
+            <span>Montréal, QC</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hr"></div>
+      <div class="small">© <span data-year></span> e-NABLE Québec</div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/i18n.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+    "name": "enable-quebec-website",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "dev": "npx serve src -l 3000"
+    }
+  }
+  

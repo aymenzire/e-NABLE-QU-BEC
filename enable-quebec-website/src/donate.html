@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Donner | e-NABLE Québec</title>
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="navbar">
+        <a class="brand" href="./index.html">
+          <img class="logo" src="./assets/img/logo.svg" alt="Logo e-NABLE Québec" />
+          <div class="title"><strong>e-NABLE Québec</strong><span>Communauté, open-source, inclusion</span></div>
+        </a>
+        <div class="actions">
+          <button class="btn" type="button" data-lang-toggle aria-label="Basculer en anglais">FR</button>
+          <button class="btn" type="button" data-menu-btn aria-expanded="false" aria-controls="navlinks">Menu</button>
+        </div>
+      </div>
+
+      <nav id="navlinks" class="navlinks" data-navlinks data-open="false" style="display:none;">
+        <a href="./index.html" data-i18n="nav_home">Accueil</a>
+        <a href="./about.html" data-i18n="nav_about">À propos</a>
+        <a href="./get-device.html" data-i18n="nav_get">Recevoir un dispositif</a>
+        <a href="./volunteer.html" data-i18n="nav_volunteer">Bénévolat</a>
+        <a href="./resources.html" data-i18n="nav_resources">Ressources</a>
+        <a href="./donate.html" aria-current="page" data-i18n="nav_donate">Donner</a>
+        <a href="./contact.html" data-i18n="nav_contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="section">
+    <div class="container">
+      <h1 style="margin:0 0 10px 0;">Donner</h1>
+      <p class="lead">Ajoute ici tes liens de dons (OBNL, GoFundMe, Stripe, etc.) et tes besoins matériels.</p>
+
+      <div class="grid">
+        <div class="card pad">
+          <h2 style="margin-top:0;">Dons matériels</h2>
+          <ul class="small" style="margin:0; padding-left:18px;">
+            <li>Filament (PLA/PETG), élastiques, visserie</li>
+            <li>Outils (pinces, limes), consommables</li>
+            <li>Imprimantes 3D ou temps machine</li>
+          </ul>
+        </div>
+        <div class="card pad">
+          <h2 style="margin-top:0;">Partenariats</h2>
+          <p class="small">Entreprises, fablabs, universités, fondations. Ajoute ici un kit média.</p>
+        </div>
+        <div class="card pad">
+          <h2 style="margin-top:0;">Transparence</h2>
+          <p class="small">Publie un résumé: où vont les fonds, combien de dispositifs livrés, inventaire, etc.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="small">© <span data-year></span> e-NABLE Québec</div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/i18n.js"></script>
+</body>
+</html>

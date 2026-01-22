@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bénévolat | e-NABLE Québec</title>
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="navbar">
+        <a class="brand" href="./index.html">
+          <img class="logo" src="./assets/img/logo.svg" alt="Logo e-NABLE Québec" />
+          <div class="title"><strong>e-NABLE Québec</strong><span>Communauté, open-source, inclusion</span></div>
+        </a>
+        <div class="actions">
+          <button class="btn" type="button" data-lang-toggle aria-label="Basculer en anglais">FR</button>
+          <button class="btn" type="button" data-menu-btn aria-expanded="false" aria-controls="navlinks">Menu</button>
+        </div>
+      </div>
+
+      <nav id="navlinks" class="navlinks" data-navlinks data-open="false" style="display:none;">
+        <a href="./index.html" data-i18n="nav_home">Accueil</a>
+        <a href="./about.html" data-i18n="nav_about">À propos</a>
+        <a href="./get-device.html" data-i18n="nav_get">Recevoir un dispositif</a>
+        <a href="./volunteer.html" aria-current="page" data-i18n="nav_volunteer">Bénévolat</a>
+        <a href="./resources.html" data-i18n="nav_resources">Ressources</a>
+        <a href="./donate.html" data-i18n="nav_donate">Donner</a>
+        <a href="./contact.html" data-i18n="nav_contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="section">
+    <div class="container">
+      <h1 style="margin:0 0 10px 0;">Bénévolat</h1>
+      <p class="lead">On a besoin de monde: impression 3D, design, assemblage, QA, coordination, communications, partenariats.</p>
+
+      <div class="grid">
+        <div class="card pad">
+          <h2 style="margin-top:0;">Rôles typiques</h2>
+          <table class="table" aria-label="Rôles bénévoles">
+            <thead>
+              <tr><th>Rôle</th><th>Compétences</th><th>Temps</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Maker</td><td>Impression 3D, calibration</td><td>Variable</td></tr>
+              <tr><td>Assemblage</td><td>Outils, cordage, finitions</td><td>1 à 3 h</td></tr>
+              <tr><td>QA</td><td>Checklists, test mécanique</td><td>30 à 60 min</td></tr>
+              <tr><td>Design</td><td>CAD, adaptation</td><td>Projet</td></tr>
+              <tr><td>Coordination</td><td>Suivi demandes, logistique</td><td>Hebdo</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="card pad">
+          <h2 style="margin-top:0;">Inscription bénévole</h2>
+          <form class="form" data-form>
+            <div>
+              <label for="vname">Nom</label>
+              <input id="vname" name="vname" required />
+            </div>
+            <div>
+              <label for="vemail">Courriel</label>
+              <input id="vemail" name="vemail" type="email" required />
+            </div>
+            <div>
+              <label for="role">Rôle souhaité</label>
+              <select id="role" name="role" required>
+                <option value="">Choisir</option>
+                <option value="maker">Maker</option>
+                <option value="assembly">Assemblage</option>
+                <option value="qa">Qualité</option>
+                <option value="design">Design</option>
+                <option value="coord">Coordination</option>
+              </select>
+            </div>
+            <div>
+              <label for="msg">Message</label>
+              <textarea id="msg" name="msg" required></textarea>
+            </div>
+
+            <div class="alert" data-form-status hidden></div>
+            <button class="btn primary" type="submit">Envoyer (prototype)</button>
+          </form>
+        </div>
+
+        <div class="card pad">
+          <h2 style="margin-top:0;">Guide rapide</h2>
+          <ul class="small" style="margin:0; padding-left: 18px;">
+            <li>On travaille avec des modèles open-source validés par la communauté.</li>
+            <li>On documente chaque build (matériaux, réglages, contrôle qualité).</li>
+            <li>On garde un ton respectueux et centré sur le bénéficiaire.</li>
+          </ul>
+          <div class="hr"></div>
+          <a class="btn" href="./resources.html">Voir ressources</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="small">© <span data-year></span> e-NABLE Québec</div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/i18n.js"></script>
+  <script src="./assets/js/form.js"></script>
+</body>
+</html>

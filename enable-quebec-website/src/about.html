@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>À propos | e-NABLE Québec</title>
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="navbar">
+        <a class="brand" href="./index.html">
+          <img class="logo" src="./assets/img/logo.svg" alt="Logo e-NABLE Québec" />
+          <div class="title"><strong>e-NABLE Québec</strong><span>Communauté, open-source, inclusion</span></div>
+        </a>
+        <div class="actions">
+          <button class="btn" type="button" data-lang-toggle aria-label="Basculer en anglais">FR</button>
+          <button class="btn" type="button" data-menu-btn aria-expanded="false" aria-controls="navlinks">Menu</button>
+        </div>
+      </div>
+
+      <nav id="navlinks" class="navlinks" data-navlinks data-open="false" style="display:none;">
+        <a href="./index.html" data-i18n="nav_home">Accueil</a>
+        <a href="./about.html" aria-current="page" data-i18n="nav_about">À propos</a>
+        <a href="./get-device.html" data-i18n="nav_get">Recevoir un dispositif</a>
+        <a href="./volunteer.html" data-i18n="nav_volunteer">Bénévolat</a>
+        <a href="./resources.html" data-i18n="nav_resources">Ressources</a>
+        <a href="./donate.html" data-i18n="nav_donate">Donner</a>
+        <a href="./contact.html" data-i18n="nav_contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="section">
+    <div class="container">
+      <h1 style="margin:0 0 10px 0;">À propos</h1>
+      <p class="lead">e-NABLE Québec rassemble des bénévoles pour fabriquer des dispositifs d’assistance imprimés en 3D, gratuitement, pour des personnes qui en ont besoin.</p>
+
+      <div class="grid">
+        <div class="card pad">
+          <h2 style="margin-top:0;">Mission</h2>
+          <p class="small">Augmenter l’accès à des dispositifs d’assistance, tout en développant une communauté locale de makers et d’étudiants.</p>
+        </div>
+        <div class="card pad">
+          <h2 style="margin-top:0;">Valeurs</h2>
+          <p class="small">Inclusion, respect, transparence, sécurité, collaboration, open-source.</p>
+        </div>
+        <div class="card pad">
+          <h2 style="margin-top:0;">Ce qu’on fait</h2>
+          <p class="small">Accueil des demandes, sélection de modèles, fabrication, assemblage, contrôle qualité, remise et documentation.</p>
+        </div>
+      </div>
+
+      <div class="hr"></div>
+
+      <div class="card pad">
+        <h2 style="margin-top:0;">Statut et conformité</h2>
+        <p class="small">
+          Important: les dispositifs produits ici ne sont pas des dispositifs médicaux certifiés. Pour tout besoin clinique, consulte un professionnel.
+          Ajoute ici tes informations légales (OBNL, politique de confidentialité, consentement).
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="small">© <span data-year></span> e-NABLE Québec</div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/i18n.js"></script>
+</body>
+</html>

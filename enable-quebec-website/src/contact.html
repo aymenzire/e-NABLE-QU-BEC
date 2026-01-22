@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | e-NABLE Québec</title>
+  <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="navbar">
+        <a class="brand" href="./index.html">
+          <img class="logo" src="./assets/img/logo.svg" alt="Logo e-NABLE Québec" />
+          <div class="title"><strong>e-NABLE Québec</strong><span>Communauté, open-source, inclusion</span></div>
+        </a>
+        <div class="actions">
+          <button class="btn" type="button" data-lang-toggle aria-label="Basculer en anglais">FR</button>
+          <button class="btn" type="button" data-menu-btn aria-expanded="false" aria-controls="navlinks">Menu</button>
+        </div>
+      </div>
+
+      <nav id="navlinks" class="navlinks" data-navlinks data-open="false" style="display:none;">
+        <a href="./index.html" data-i18n="nav_home">Accueil</a>
+        <a href="./about.html" data-i18n="nav_about">À propos</a>
+        <a href="./get-device.html" data-i18n="nav_get">Recevoir un dispositif</a>
+        <a href="./volunteer.html" data-i18n="nav_volunteer">Bénévolat</a>
+        <a href="./resources.html" data-i18n="nav_resources">Ressources</a>
+        <a href="./donate.html" data-i18n="nav_donate">Donner</a>
+        <a href="./contact.html" aria-current="page" data-i18n="nav_contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="section">
+    <div class="container">
+      <h1 style="margin:0 0 10px 0;">Contact</h1>
+      <p class="lead">Écris-nous pour une demande, un partenariat, ou pour lancer une cellule locale.</p>
+
+      <div class="grid">
+        <div class="card pad">
+          <h2 style="margin-top:0;">Coordonnées</h2>
+          <div class="small" style="display:grid; gap: 8px;">
+            <div>Email: contact@enablequebec.org</div>
+            <div>Région: Montréal, QC</div>
+            <div>Réseaux: Instagram, LinkedIn, Discord (à ajouter)</div>
+          </div>
+          <div class="hr"></div>
+          <div class="small">Ajoute ici ta politique de confidentialité et tes consentements.</div>
+        </div>
+
+        <div class="card pad">
+          <h2 style="margin-top:0;">Formulaire</h2>
+          <form class="form" data-form>
+            <div>
+              <label for="cname">Nom</label>
+              <input id="cname" name="cname" required />
+            </div>
+            <div>
+              <label for="cemail">Courriel</label>
+              <input id="cemail" name="cemail" type="email" required />
+            </div>
+            <div>
+              <label for="csubject">Sujet</label>
+              <input id="csubject" name="csubject" required />
+            </div>
+            <div>
+              <label for="cmsg">Message</label>
+              <textarea id="cmsg" name="cmsg" required></textarea>
+            </div>
+
+            <div class="alert" data-form-status hidden></div>
+            <button class="btn primary" type="submit">Envoyer (prototype)</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="small">© <span data-year></span> e-NABLE Québec</div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/i18n.js"></script>
+  <script src="./assets/js/form.js"></script>
+</body>
+</html>
